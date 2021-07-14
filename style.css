@@ -112,17 +112,15 @@ p{
 
 /* copa video style  */
 .copa-video{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 0px;
+    align-items: center; */
+    /* margin-left: 0px;
     margin-top: 0;
+    margin-right: 0; */
+    padding-top: 50px;
+    margin-left: 400px;
     margin-right: 0;
-}
-.video{
-    width: 560px;
-    height: 315px;
-    margin-top: 165px;
 }
 
 /* table style  */
@@ -130,8 +128,8 @@ table {
     width: 500px;
     height: 300px;
     border-collapse: collapse;
-    margin-top: 165px;
-    margin-left: 10px;
+    margin-top: 50px;
+    margin-left: 450px;
     margin-right: 0;
 }
 td, th {
@@ -153,7 +151,7 @@ th{
 .football-image{
     width: 483.87px;
     height: 110px;
-    margin: 217px 481.13px 20px 470px;
+    margin: 100px 481.13px 20px 470px;
 }
 
 /* social icons style  */
