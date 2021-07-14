@@ -21,12 +21,10 @@ body{
     height: 230px;
     color: white;
     font-size: 64px;
-    /* margin-right: 141px; */
     margin-top: 119px;
     margin-bottom: 151px;
     margin-left: 156px;
     padding-right: 102px;
-    /* background-color: violet; */
 }
 h5{
     margin-bottom: 0px;
@@ -57,8 +55,6 @@ h5{
     margin-right: 141px;
     margin-top: 135px;
     margin-bottom: 86px;
-    /* margin-left: 743px; */
-    /* background-color: yellow; */
 }
 
 /* Player styles */
@@ -175,3 +171,195 @@ th{
     font-weight: 400;
     margin: 0px 605.06px 63px 630px;
 }
+/* ----------------
+    Media Queries 
+--------------*/
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .containers{
+        width: 100%;
+        
+        /* flex-direction: column; */
+        float: left;
+    }
+    .copa-title{
+        width: 278px;
+        height: 218px;
+        color: white;
+        font-size: 36px;
+        margin-top: 112px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        padding-right: 102px;
+    }
+    h5{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .containers{
+        width: 360px;
+        height: 695px;
+        background-color: #2D25A0;
+        margin-bottom: 70px;
+    }
+    .containers{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .containers{
+        
+        flex-direction: column;
+    }
+    .watch-live{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 100;
+        width: 168px;
+        height: 44px;
+        margin-top: 27px;
+        background-color: #E02C6D;
+        
+    }
+    .watch-live:hover{
+        transform: scale(110%);
+        transition: transform 1s ease-in-out;  
+    }
+    .title-image{
+        width: 329px;
+        height: 259.17px;
+        margin-right: 16px;
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 61.83px;
+    }
+
+
+    /* player style */
+
+
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 27px;
+        grid-gap: 30px; 
+        width: 332px;
+        height: 5952px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 100px;
+    }
+    
+    .player-frame{
+        width: 330px;
+        height: 474px;
+        /* border: 1px solid red; */
+        box-shadow: 0px 0px 40px rgba(94, 93, 93, 0.267);
+    }
+    .cover-image{
+        width: 300px;
+        height: 256px;
+        padding: 15px 15px 16px 15px;
+        /* border: 1px solid red; */
+    }
+    h3{
+        margin: 0;
+    }
+    .player-name{
+        width: 300px;
+        height: 40px;
+        font-size: 28px;
+        padding: 0px 15px 10px 15px;
+        /* border: 1px solid red; */
+    }
+    p{
+        margin: 0;
+    }
+    .player-info{
+        width: 300px;
+        height: 104px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #6C6C6C;
+        padding: 0px 15px 33px 15px;
+        /* border: 1px solid red; */
+    }
+
+
+    /* football image style  */
+    .bottom{
+        width: 280px;
+        height: 175px;
+        margin-bottom: 187px;
+    }
+    .football-image{
+        width: 271px;
+        height: 63px;
+        margin: 100px 71px 29px 18px;
+    }
+        /* copa video style  */
+    .copa-video{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        /* margin-left: 0px;
+        margin-top: 0;
+        margin-right: 0; */
+        width: 50%;
+        height: 50%;
+        padding-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* table style  */
+    table {
+        width: 328px;
+        height: 250px;
+        border-collapse: collapse;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    td, th {
+                border: 7px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+    th{
+        background-color: #04AA6D;
+        color: white;
+    }
+
+
+    /* social icons style  */
+
+    .social-icons{
+        color: #969BAB;
+        width: 170px;
+        height: 32px;
+        margin-left: 95px;
+        margin-right: 95px;
+        margin-bottom: 20px;
+    }
+
+    .fa-whatsapp-square, .fa-youtube, .fa-facebook, .fa-instagram-square{
+        padding-left: 14px;
+    }
+
+    .copyright{
+        width: 236px;
+        height: 31px;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0px 62px 0px 62px;
+        padding-left: 20px;
+    }
+
+}
+
