@@ -72,6 +72,7 @@ h5{
     height: 975px;
     margin-left: 180px;
     margin-right: 210px;
+    /* margin-bottom: 750px; */
 }
 
 .player-frame{
@@ -109,6 +110,28 @@ p{
     /* border: 1px solid red; */
 }
 
+/* copa video style  */
+.copa-video{
+    display: flex;
+    margin: 1200px 792px 0px 182px;
+}
+
+/* table style  */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 45px;
+}
+td, th {
+            border: 7px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+th{
+    background-color: #04AA6D;
+    color: white;
+}
+
 /* football image style  */
 .bottom{
     width: 483.87px;
@@ -118,7 +141,7 @@ p{
 .football-image{
     width: 483.87px;
     height: 110px;
-    margin: 750px 481.13px 20px 470px;
+    margin: 217px 481.13px 20px 470px;
 }
 
 /* social icons style  */
@@ -140,5 +163,5 @@ p{
     height: 31px;
     font-size: 18px;
     font-weight: 400;
-    margin: 0 605.06px 63px 630px;
+    margin: 0px 605.06px 63px 630px;
 }
